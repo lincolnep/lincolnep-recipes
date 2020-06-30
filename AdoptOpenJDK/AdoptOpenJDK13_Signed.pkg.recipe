@@ -5,9 +5,9 @@
 	<key>Description</key>
 	<string>Empty recipe that simply uses the download recipe (as it downloads a pkg)</string>
 	<key>Identifier</key>
-	<string>com.github.lincolnep.pkg.AdoptOpenJDK13_Signed</string>
+	<string>com.github.lincolnep.recipes.pkg.AdoptOpenJDK13_Signed</string>
 	<key>ParentRecipe</key>
-	<string>com.github.lincolnep.download.AdoptOpenJDK13_Signed</string>
+	<string>com.github.lincolnep.recipes.download.AdoptOpenJDK13_Signed</string>
 	<key>Input</key>
 	<dict/>
 </dict>

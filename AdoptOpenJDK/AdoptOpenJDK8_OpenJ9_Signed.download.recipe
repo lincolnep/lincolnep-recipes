@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the current release version of AdoptOpenJDK 8 JRE. This is based from the tar version rather 
-than the signed pkg version, so that the true version number can be obtained.
+	<string>Downloads the current release version of AdoptOpenJDK 8. This is the signed pkg version rather 
+than the tar version, for those that require a signed package rather than accurate version number.
 
-The default JVM implementation is "hotspot". To override to "openj9", change the value of JVM_IMPLEMENTATION.
+The default JVM implementation is "openj9". To override to "hotspot", change the value of JVM_IMPLEMENTATION.
 
 The default Release Type is "releases", which is the stable build. To get the most recent build, select "nightly".
 </string>
 	<key>Identifier</key>
-	<string>com.github.grahampugh.recipes.download.AdoptOpenJDK8JRE</string>
+	<string>com.github.lincolnep.recipes.download.AdoptOpenJDK8_OpenJ9_Signed</string>
 	<key>Input</key>
 	<dict>
 		<key>JVM_IMPLEMENTATION</key>
-		<string>hotspot</string>
+		<string>openj9</string>
 		<key>NAME</key>
-		<string>AdoptOpenJDK 8 JRE</string>
+		<string>AdoptOpenJDK 8 OpenJ9</string>
 		<key>RELEASE_STREAM</key>
 		<string>releases</string>
 		<key>STOPPROCESSINGIF_PREDICATE</key>
@@ -31,9 +31,9 @@ The default Release Type is "releases", which is the stable build. To get the mo
 			<key>Arguments</key>
 			<dict>
 				<key>re_pattern</key>
-				<string>binary_link.*?(?P&lt;match&gt;AdoptOpenJDK.*?\/OpenJDK8U-jdk_x64_mac_%JVM_IMPLEMENTATION%_.*?\.tar\.gz)</string>
+				<string>installer_link.*?(?P&lt;match&gt;AdoptOpenJDK.*?\/OpenJDK8U-jdk_x64_mac_%JVM_IMPLEMENTATION%_.*?\.pkg)</string>
 				<key>url</key>
-				<string>https://api.adoptopenjdk.net/v2/latestAssets/%RELEASE_STREAM%/openjdk8?os=mac&amp;arch=x64&amp;heap_size=normal&amp;openjdk_impl=%JVM_IMPLEMENTATION%&amp;type=jre</string>
+				<string>https://api.adoptopenjdk.net/v2/latestAssets/%RELEASE_STREAM%/openjdk8?os=mac&amp;arch=x64&amp;heap_size=normal&amp;openjdk_impl=%JVM_IMPLEMENTATION%&amp;type=jdk</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLTextSearcher</string>
@@ -61,6 +61,21 @@ The default Release Type is "releases", which is the stable build. To get the mo
 			<string>Checks if the file already exists in the cache</string>
 			<key>Processor</key>
 			<string>StopProcessingIf</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>expected_authority_names</key>
+				<array>
+					<string>Developer ID Installer: London Jamocha Community CIC (VDX7B37674)</string>
+					<string>Developer ID Certification Authority</string>
+					<string>Apple Root CA</string>
+				</array>
+				<key>input_path</key>
+				<string>%pathname%</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
 		</dict>
 	</array>
 </dict>

@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads Adobe Flash Player installer and extracts the embedded package, uploads to JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg.jss.AdobeFlashPlayer</string>
+	<string>com.github.lincolnep.recipes.jss.AdobeFlashPlayer</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -30,7 +30,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.FlashPlayerExtractPackage</string>
+	<string>com.github.lincolnep.recipes.pkg.FlashPlayerExtractPackage</string>
 	<key>Process</key>
 	<array>
 		<dict>

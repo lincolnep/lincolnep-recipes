@@ -15,7 +15,7 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>Description</key>
 	<string>Downloads the current release version of AdoptOpenJDK 8 and builds a package. This is based from the tar version rather than the signed pkg version, so that the true version number can be obtained. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.chalcahuite-recipes.jss.AdoptOpenJDK8</string>
+	<string>com.github.lincolnep.recipes.jss.AdoptOpenJDK8</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -34,7 +34,7 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.grahampugh.recipes.pkg.AdoptOpenJDK8</string>
+	<string>com.github.lincolnep.recipes.pkg.AdoptOpenJDK8</string>
 	<key>Process</key>
 	<array>
 		<dict>
