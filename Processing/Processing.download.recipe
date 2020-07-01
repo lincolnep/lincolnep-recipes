@@ -22,9 +22,9 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>https://processing.org/download/?processing</string>
+                <string>https://processing.org/download/</string>
                 <key>re_pattern</key>
-                <string>(?P&lt;url&gt;http.*?macosx.zip)</string>
+                <string>(?P&lt;url&gt;https://download.processing.org/processing-(?P&lt;version&gt;[0-9a-zA-Z\.]+)-macosx.zip)</string>
             </dict>
         </dict>
         <dict>
