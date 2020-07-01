@@ -39,29 +39,6 @@
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
         </dict>
-        <!-- Bellow worked but not the correct app -->
-        <!-- <dict>
-            <key>Processor</key>
-            <string>GitHubReleasesInfoProvider</string>
-            <key>Arguments</key>
-            <dict>
-                <key>github_repo</key>
-                <string>processing/processing</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>URLDownloader</string>
-            <key>Arguments</key>
-            <dict>
-                <key>filename</key>
-                <string>%NAME%-%version%-macosx.zip</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>EndOfCheckPhase</string>
-        </dict> -->
         <dict>
             <key>Processor</key>
             <string>Unarchiver</string>
