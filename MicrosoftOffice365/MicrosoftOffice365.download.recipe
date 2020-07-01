@@ -20,9 +20,9 @@ Override the PRODUCTID key to:
 		<key>NAME</key>
 		<string>Microsoft Office Suite</string>
 		<key>PKG_NAME</key>
-		<string>MicrosoftOffice365Suite</string>
+		<string>MicrosoftOffice365BusinessPro</string>
 		<key>PRODUCTID</key>
-		<string>336983</string>
+		<string>2009112</string>
 		<key>STOPPROCESSINGIF_PREDICATE</key>
 		<string>download_changed == FALSE</string>
 	</dict>
