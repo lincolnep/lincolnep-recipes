@@ -16,7 +16,7 @@
     <string>0.3.1</string>
     <key>Process</key>
     <array>
-        <!-- <dict>
+        <dict>
             <key>Processor</key>
             <string>URLTextSearcher</string>
             <key>Arguments</key>
@@ -34,8 +34,9 @@
         <dict>
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
-        </dict> -->
-        <dict>
+        </dict>
+        <!-- Bellow worked but not the correct app -->
+        <!-- <dict>
             <key>Processor</key>
             <string>GitHubReleasesInfoProvider</string>
             <key>Arguments</key>
@@ -56,7 +57,7 @@
         <dict>
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
-        </dict>
+        </dict> -->
         <dict>
             <key>Processor</key>
             <string>Unarchiver</string>
