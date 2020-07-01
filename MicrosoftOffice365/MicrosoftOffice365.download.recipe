@@ -12,7 +12,7 @@ Override the PRODUCTID key to:
 - 2009112 for Office365 Business Pro (includes Teams)
 </string>
 	<key>Identifier</key>
-	<string>com.github.grahampugh.recipes.download.MicrosoftOffice365</string>
+	<string>com.github.lincolnep.recipes.download.MicrosoftOffice365</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOADURL</key>
@@ -22,7 +22,7 @@ Override the PRODUCTID key to:
 		<key>PKG_NAME</key>
 		<string>MicrosoftOffice365Suite</string>
 		<key>PRODUCTID</key>
-		<string>532572</string>
+		<string>336983</string>
 		<key>STOPPROCESSINGIF_PREDICATE</key>
 		<string>download_changed == FALSE</string>
 	</dict>
