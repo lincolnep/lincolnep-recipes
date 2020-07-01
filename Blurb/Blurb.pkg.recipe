@@ -29,11 +29,11 @@ CS6
 	<key>Input</key>
 	<dict>
 		<key>INDESIGN_APP_VERSION</key>
-		<string>app_version</string>
+		<string>2020</string>
 		<key>PACKAGE_ID</key>
-		<string>com.blurb.BlurbVERSION.pkg</string>
+		<string>com.blurb.Blurb%INDESIGN_APP_VERSION%.pkg</string>
 		<key>PACKAGE_NAME</key>
-		<string>BlurbVERSION</string>
+		<string>Blurb%INDESIGN_APP_VERSION%</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
