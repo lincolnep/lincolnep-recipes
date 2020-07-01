@@ -26,7 +26,9 @@
                 <key>re_pattern</key>
                 <string>(?P&lt;url&gt;https://download.processing.org/processing-(?P&lt;version&gt;[0-9a-zA-Z\.]+)-macosx.zip)</string>
                 <key>curl_opts</key>
-                <string>"--insecure"</string>
+                <array>
+                    <string>--insecure</string>
+                </array>
             </dict>
         </dict>
         <dict>
