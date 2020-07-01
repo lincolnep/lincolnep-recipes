@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads latest Suspicious Package dmg, unpacks it, and creates a pkg.</string>
+	<key>Identifier</key>
+	<string>com.github.lincolnep.recipes.pkg.SuspiciousPackage</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Suspicious Package</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.lincolnep.recipes.download.SuspiciousPackage</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Processor</key>
+			<string>AppPkgCreator</string>
+			<key>Arguments</key>
+			<dict/>
+		</dict>
+	</array>
+</dict>
+</plist>
