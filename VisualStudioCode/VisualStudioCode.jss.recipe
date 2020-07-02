@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of VS Code and then uploads to the JSS</string>
+	<string>Downloads the latest version of Visual Studio Code and makes a pkg. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
 	<string>com.github.lincolnep.recipes.jss.visualstudiocode</string>
 	<key>Input</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Visual Studio for Mac is a modern, sophisticated IDE with many features for creating mobile, desktop, and web applications.</string>
+		<string>Visual Studio Code is a source code editor which includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>vscode.png</string>
 	</dict>
