@@ -21,6 +21,15 @@
 	<key>Process</key>
 	<array>
 		<dict>
+            <key>Arguments</key>
+            <dict>
+               <key>pattern</key>
+               <string>%RECIPE_CACHE_DIR%/downloads/*%SOFTWARETITLE%*.pkg</string>
+            </dict>
+            <key>Processor</key>
+            <string>FileFinder</string>
+         </dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
