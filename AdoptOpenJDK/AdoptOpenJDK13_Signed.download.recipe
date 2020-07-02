@@ -20,8 +20,8 @@ The default Release Type is "releases", which is the stable build. To get the mo
 		<string>AdoptOpenJDK 13</string>
 		<key>RELEASE_STREAM</key>
 		<string>releases</string>
-		<key>STOPPROCESSINGIF_PREDICATE</key>
-		<string>download_changed == False</string>
+		<!-- <key>STOPPROCESSINGIF_PREDICATE</key>
+		<string>download_changed == False</string> -->
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
