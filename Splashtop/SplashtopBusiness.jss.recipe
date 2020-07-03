@@ -23,7 +23,7 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Splashtop Business is a remote computer access tool for businesses, teams, and individuals.</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>vscode.png</string>
+		<string>splashtopbusiness.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
