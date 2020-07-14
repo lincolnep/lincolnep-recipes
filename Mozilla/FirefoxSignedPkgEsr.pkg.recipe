@@ -23,6 +23,7 @@ See the following URL for possible LOCALE values:
 	<key>ParentRecipe</key>
 	<string>com.github.lincolnep.recipes.download.FirefoxSignedPkgEsr</string>
 	<key>Process</key>
+	<array>
 	<dict>
 		<key>Arguments</key>
 		<dict>
