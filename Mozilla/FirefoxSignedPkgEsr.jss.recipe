@@ -28,6 +28,10 @@
 		<string>firefox.png</string>
 		<key>PATCH_MANAGEMENT</key>
 		<string>Patch Reporting: Mozilla Firefox Extended Support Release (ESR)</string>
+		<key>re_pattern</key>
+		<string>"%version%": "([\d\.])"</string>
+		<key>result_output_var_name</key>
+		<string>VERSION</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
