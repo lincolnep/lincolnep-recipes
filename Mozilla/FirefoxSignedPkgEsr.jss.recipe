@@ -15,7 +15,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>FirefoxSmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>Firefox ESR</string>
+		<string>Firefox</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
@@ -23,7 +23,7 @@
 		<key>POLICY_TRIGGER</key>
 		<string>Install_FirefoxESR</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Install the latest version of %NAME%.</string>
+		<string>Install the latest version of %NAME% ESR.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>firefox.png</string>
 		<key>PATCH_MANAGEMENT</key>
