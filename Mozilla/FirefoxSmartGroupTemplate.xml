@@ -3,7 +3,7 @@
 	<is_smart>true</is_smart>
 	<criteria>
 		<criterion>
-			<name>Patch Reporting: %PROD_NAME%</name>
+			<name>%PATCH_MANAGEMENT%</name>
 			<priority>0</priority>
 			<and_or>and</and_or>
 			<search_type>less than</search_type>
@@ -11,7 +11,7 @@
 		</criterion>
 		<criterion>
 			<name>Computer Group</name>
-			<priority>3</priority>
+			<priority>2</priority>
 			<and_or>and</and_or>
 			<search_type>member of</search_type>
 			<value>Testing</value>
