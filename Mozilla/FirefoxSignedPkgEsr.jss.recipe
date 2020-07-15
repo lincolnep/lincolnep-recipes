@@ -31,7 +31,7 @@
 		<key>re_pattern</key>
 		<string>"%VERSION%": "([\d\.])"</string>
 		<key>result_output_var_name</key>
-		<string>VERSION</string>
+		<string>CLEAN_VERSION</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
