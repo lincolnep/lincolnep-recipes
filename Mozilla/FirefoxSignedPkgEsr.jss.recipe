@@ -58,7 +58,7 @@
 				<key>policy_trigger</key>
 				<string>%POLICY_TRIGGER%</string>
 				<key>prod_name</key>
-				<string>%NAME%</string>
+				<string>%NAME% ESR</string>
 				<key>self_service_description</key>
 				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
