@@ -3,7 +3,7 @@
 	<is_smart>true</is_smart>
 	<criteria>
 		<criterion>
-			<name>Patch Reporting: Mozilla Firefox Extended Support Release (ESR)</name>
+			<name>%PATCH_MANAGEMENT%</name>
 			<priority>0</priority>
 			<and_or>and</and_or>
 			<search_type>less than</search_type>
