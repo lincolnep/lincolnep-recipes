@@ -27,7 +27,7 @@ See the following URL for possible LOCALE values:
 		<key>NAME</key>
 		<string>Firefox</string>
 		<key>LATEST_RELEASE</key>
-		<string>FIREFOX_ESR</string>
+		<string>FIREFOX_ESR_NEXT</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
