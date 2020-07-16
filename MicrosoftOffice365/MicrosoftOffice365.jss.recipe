@@ -12,6 +12,21 @@
 		<string>Productivity</string>
 		<key>NAME</key>
 		<string>Microsoft Office 365</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>PatchManagementSmartGroupTemplate.xml</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Microsoft Teams is a unified communication and collaboration platform that combines persistent workplace chat, video meetings, file storage, and application integration.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>MicrosoftOffice365Suite.png</string>
+		<key>PATCH_MANAGEMENT</key>
+		<string>Patch Reporting: Microsoft Teams</string>
+	</dict>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
