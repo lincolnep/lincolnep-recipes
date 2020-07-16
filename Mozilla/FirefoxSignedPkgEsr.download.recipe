@@ -49,6 +49,17 @@ See the following URL for possible LOCALE values:
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>filename</key>
+				<string>%NAME%-%version%.pkg</string>
+				<key>url</key>
+				<string>http://releases.mozilla.org/pub/firefox/releases/%version%/mac/%LOCALE%/Firefox%20%version%.pkg</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
 				<key>re_pattern</key>
 				<string>"%LATEST_RELEASE%": "([\d\.]+)"</string>
 				<key>result_output_var_name</key>
@@ -58,17 +69,6 @@ See the following URL for possible LOCALE values:
 			</dict>
 			<key>Processor</key>
 			<string>URLTextSearcher</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>filename</key>
-				<string>%NAME%-%version%.pkg</string>
-				<key>url</key>
-				<string>http://releases.mozilla.org/pub/firefox/releases/%version%/mac/%LOCALE%/Firefox%20%version%.pkg</string>
-			</dict>
-			<key>Processor</key>
-			<string>URLDownloader</string>
 		</dict>
 		<dict>
 			<key>Processor</key>
