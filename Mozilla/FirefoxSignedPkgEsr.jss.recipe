@@ -13,7 +13,7 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%ESR-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>FirefoxSmartGroupTemplate.xml</string>
+		<string>PatchManagementSmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Firefox</string>
 		<key>POLICY_CATEGORY</key>

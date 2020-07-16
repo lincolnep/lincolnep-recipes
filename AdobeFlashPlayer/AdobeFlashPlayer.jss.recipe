@@ -13,7 +13,7 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>Adobe Flash PlayerSmartGroupTemplate.xml</string>
+		<string>PatchManagementSmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Adobe Flash Player</string>
 		<key>POLICY_CATEGORY</key>
@@ -26,6 +26,8 @@
 		<string>Install the latest version of Adobe Flash Player.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Adobe Flash Player.png</string>
+		<key>PATCH_MANAGEMENT</key>
+		<string>Patch Reporting: Adobe Flash Player</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
@@ -38,13 +40,6 @@
 			<dict>
 				<key>category</key>
 				<string>%CATEGORY%</string>
-				<!-- <key>extension_attributes</key>
-				<array>
-					<dict>
-						<key>ext_attribute_path</key>
-						<string>Adobe Flash PlayerExtensionAttribute.xml</string>
-					</dict>
-				</array> -->
 				<key>groups</key>
 				<array>
 					<dict>
