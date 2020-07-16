@@ -49,6 +49,19 @@ See the following URL for possible LOCALE values:
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>re_pattern</key>
+				<string>"%LATEST_RELEASE%": "([\d\.])"</string>
+				<key>result_output_var_name</key>
+				<string>clean_version</string>
+				<key>url</key>
+				<string>https://product-details.mozilla.org/1.0/firefox_versions.json</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
 				<key>filename</key>
 				<string>%NAME%-%version%.pkg</string>
 				<key>url</key>

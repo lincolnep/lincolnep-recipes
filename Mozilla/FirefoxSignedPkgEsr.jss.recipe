@@ -11,7 +11,7 @@
 		<key>CATEGORY</key>
 		<string>Internet</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>%NAME%ESR-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>FirefoxSmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -28,10 +28,6 @@
 		<string>firefox.png</string>
 		<key>PATCH_MANAGEMENT</key>
 		<string>Patch Reporting: Mozilla Firefox Extended Support Release (ESR)</string>
-		<!-- <key>re_pattern</key>
-		<string>"%VERSION%": "([\d\.])"</string>
-		<key>result_output_var_name</key>
-		<string>CLEAN_VERSION</string> -->
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
@@ -42,10 +38,6 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>re_pattern</key>
-				<string>"%version%": "([\d\.])"</string>
-				<key>result_output_var_name</key>
-				<string>CLEAN_VERSION</string>
 				<key>category</key>
 				<string>%CATEGORY%</string>
 				<key>groups</key>
