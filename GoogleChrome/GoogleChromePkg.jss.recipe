@@ -13,7 +13,7 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate-MinimumOS.xml</string>
+		<string>PatchManagementSmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Google Chrome</string>
 		<key>POLICY_CATEGORY</key>
@@ -25,7 +25,9 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Install the latest version of %NAME%.</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>Google Chrome.png</string>
+		<string>GoogleChrome.png</string>
+		<key>PATCH_MANAGEMENT</key>
+		<string>Patch Reporting: Google Chrome</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.4.1</string>

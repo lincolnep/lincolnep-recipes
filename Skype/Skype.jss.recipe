@@ -9,11 +9,11 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Media</string>
+		<string>Productivity</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SkypeSmartGroupTemplate.xml</string>
+		<string>PatchManagementSmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Skype</string>
 		<key>POLICY_CATEGORY</key>
@@ -26,6 +26,8 @@
 		<string>Install the latest version of %NAME%.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Skype.png</string>
+		<key>PATCH_MANAGEMENT</key>
+		<string>Patch Reporting: Skype</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
@@ -47,13 +49,6 @@
 			<dict>
 				<key>category</key>
 				<string>%CATEGORY%</string>
-				<key>extension_attributes</key>
-				<array>
-					<dict>
-						<key>ext_attribute_path</key>
-						<string>SkypeExtensionAttribute.xml</string>
-					</dict>
-				</array>
 				<key>groups</key>
 				<array>
 					<dict>
