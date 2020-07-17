@@ -27,7 +27,6 @@
 		<key>PATCH_MANAGEMENT</key>
 		<string>Patch Reporting: Microsoft Word</string>
 	</dict>
-	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
