@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Splashtop Business and makes a pkg. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.lincolnep.recipes.jss.AdoptOpenJDK14_Signed</string>
+	<string>com.github.lincolnep.recipes.jss.AdoptOpenJDK13_Signed</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -15,7 +15,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>AdoptOpenJDK14</string>
+		<string>AdoptOpenJDK13</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
@@ -29,7 +29,7 @@ All AdoptOpenJDK binaries and scripts are open source licensed and available for
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.lincolnep.recipes.pkg.AdoptOpenJDK14_Signed</string>
+	<string>com.github.lincolnep.recipes.pkg.AdoptOpenJDK13_Signed</string>
 	<key>Process</key>
 	<array>
 		<dict>
