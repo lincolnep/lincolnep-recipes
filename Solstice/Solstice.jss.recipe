@@ -21,14 +21,13 @@ Download recipe's original author was @joshua-d-miller (https://github.com/autop
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>POLICY_CATEGORY</key>
-		<string>%CATEGORY%</string>
+		<string>Testing</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
-
 		<key>NAME</key>
 		<string>Solstice</string>
 		<key>CATEGORY</key>
-		<string>Testing</string>
+		<string>Utilities</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Solstice removes technical barriers to better collaboration in the meeting room by allowing any number of connected users to share unlimited content.
 

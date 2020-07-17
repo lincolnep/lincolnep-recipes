@@ -32,7 +32,7 @@ Two override variables are avilable to support the installation of SPSS:
 		<key>NAME</key>
 		<string>SPSS Statistics</string>
 		<key>CATEGORY</key>
-		<string>Analytics</string>
+		<string>Productivity</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>IBM SPSS Statistics is a statistical analysis family of products that helps to address the entire analytical process, from planning and data collection to analysis, reporting and deployment.</string>
 		<key>SELF_SERVICE_ICON</key>

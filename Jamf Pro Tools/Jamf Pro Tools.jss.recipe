@@ -25,7 +25,7 @@ The name of the folder name in /Applications and the package will be named based
 		<key>NAME</key>
 		<string>Jamf Pro Tools</string>
 		<key>CATEGORY</key>
-		<string>Technical Support</string>
+		<string>Development Tools</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Install the latest version of the Jamf Pro Tools.</string>
 		<key>SELF_SERVICE_ICON</key>

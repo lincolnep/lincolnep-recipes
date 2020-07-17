@@ -19,11 +19,11 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Testing</string>
+		<string>Development Tools</string>
 		<key>DESCRIPTION</key>
 		<string>AdoptOpenJDK provides prebuilt OpenJDK binaries from a fully open source set of build scripts and infrastructure.</string>
 		<key>ICON</key>
-		<string>%RECIPE_DIR%/AdoptOpenJDK.png</string>
+		<string>%RECIPE_DIR%/adoptopenjdk.png</string>
 		<key>NAME</key>
 		<string>AdoptOpenJDK 8</string>
 		<key>POLICY_CATEGORY</key>

@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads latest Suspicious Package installer, unpacks it, and re-labels the installer. Then, uploads to the JSS.</string>
+	<string>Downloads latest Meshmixer disk image, and builds a package, and uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.lincolnep.recipes.jss.SuspiciousPackage</string>
+	<string>com.github.lincolnep.recipes.jss.Meshmixer</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Development Tools</string>
+		<string>Digital Media</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>Suspicious Package</string>
+		<string>Meshmixer</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>POLICY_TRIGGER</key>
-		<string>Install_SuspiciousPackage</string>
+		<string>Install_Meshmixer</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Install the latest version of %NAME%.</string>
+		<string>Meshmixer is state-of-the-art software for working with triangle meshes.</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>Suspicious Package.png</string>
+		<string>meshmixer.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.lincolnep.recipes.pkg.SuspiciousPackage</string>
+	<string>com.github.lincolnep.recipes.pkg.Meshmixer</string>
 	<key>Process</key>
 	<array>
 		<dict>
