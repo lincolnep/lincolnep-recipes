@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Google Chrome enterprise package and renames it based on the Chrome version.</string>
+    <string>Downloads latest Meshmixer enterprise package.</string>
     <key>Identifier</key>
     <string>com.github.lincolnep.recipes.pkg.Meshmixer</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>GoogleChrome</string>
+        <string>Meshmixer</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.4.1</string>
@@ -56,7 +56,7 @@
                 <key>source_pkg</key>
                 <string>%pathname%</string>
                 <key>pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/Meshmixer-%version%.pkg</string>
+                <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
             </dict>
         </dict>
         <!-- <dict>
