@@ -20,6 +20,8 @@
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
+		<key>POLICY_TRIGGER</key>
+		<string>Install_MicrosoftOffice365</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Microsoft Teams is a unified communication and collaboration platform that combines persistent workplace chat, video meetings, file storage, and application integration.</string>
 		<key>SELF_SERVICE_ICON</key>
