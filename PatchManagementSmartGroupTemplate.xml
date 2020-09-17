@@ -7,7 +7,7 @@
 			<priority>0</priority>
 			<and_or>and</and_or>
 			<search_type>less than</search_type>
-			<value>%version%</value>
+			<value>Latest Version</value>
 		</criterion>
 		<criterion>
 			<name>Computer Group</name>
