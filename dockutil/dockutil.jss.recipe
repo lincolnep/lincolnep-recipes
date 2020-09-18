@@ -35,7 +35,7 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>pkg_path</key>
-		<string>%RECIPE_DIR%/Downloads/</string>
+		<string>%RECIPE_DIR%/downloads/</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.0</string>
