@@ -25,7 +25,7 @@
                 <key>url</key>
                 <string>%DOWNLOAD_PAGE%</string>
                 <key>re_pattern</key>
-                <string>(?P&lt;url&gt;(https:)?\/\/(?:[^\/]*)arduino\.cc\/(?P&lt;filename&gt;/?[^"']+-macosx\.zip))</string>
+                <string>(?P&lt;url&gt;(https:)?\/\/(?:[^\/]*)arduino\.cc\/arduino-ide\/(?P&lt;filename&gt;/?[^"']+_macOS_64bit\.dmg))</string>
             </dict>
         </dict>
 		<dict>
@@ -34,7 +34,7 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>http://downloads.arduino.cc/%filename%</string>
+                <string>http://downloads.arduino.cc/arduino-ide/%filename%</string>
             </dict>
 		</dict>
 		<dict>
